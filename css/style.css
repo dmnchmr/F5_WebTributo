@@ -58,7 +58,11 @@ header {
     height: 100vh;
     display: flex;
     justify-content: center;
-    gap: 15%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .ParteIzq {
@@ -70,6 +74,12 @@ header {
 }
 
 h1 {
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-40%, -50%);
+
     color: #FFFEFE;
     text-shadow: -16px 8px 5.900000095367432px rgba(206, 186, 186, 0.35);
     font-family: Karantina;
@@ -80,26 +90,29 @@ h1 {
 }
 
 .TextoSubtitulo {
-    width: 40%;
+    width: 35%;
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    right: 19%;
+    transform: translate(50%, -50%);
 }
 
 .TextoSubtitulo p,
 .TextoSubtitulo h2 {
     text-align: left;
     color: #FFF;
+    
     font-family: Karantina;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-
-
-
 
 
 
