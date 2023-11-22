@@ -60,18 +60,22 @@ header {
     justify-content: center;
 }
 
-img {
+.slider-container {
+    display: flex;
     width: 100%;
-    object-fit: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
 }
 
-.ParteIzq {
-    width: 40%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.slider-container img {
+        position: relative;
+        flex: 0 0 100%;
+        width: 100%;
+        object-fit: cover;
+        scroll-snap-align: center;
+        animation: fotos 40s ease-in-out 2s infinite alternate;
+    }
 
 h1 {
     width: 40%;
@@ -95,7 +99,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    color: #FFFEFE;
     position: absolute;
     top: 50%;
     right: 19%;
@@ -104,9 +108,6 @@ h1 {
 
 .TextoSubtitulo p,
 .TextoSubtitulo h2 {
-    text-align: left;
-    color: #FFF;
-    
     font-family: Karantina;
     font-size: 35px;
     font-style: normal;
@@ -114,6 +115,22 @@ h1 {
     line-height: normal;
 }
 
+@keyframes fotos {
+    0% {
+        left: 0;
+    }
+    33.33%{
+        left: -100%;
+    }
+
+    66.66%{
+        left: -200%;
+    }
+
+    100%{
+        left: -300%
+    }
+}
 
 
 
