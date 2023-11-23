@@ -133,3 +133,90 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#miembros {
+    background-color:black;
+    padding: 20px;
+    text-align: justify;
+}
+
+#miembros h2 {
+    color: white;
+    font-family: karantina;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.miembro-tokyo-tanaka{
+
+    background-color: #d75700;
+
+    
+}
+
+.miembro-jean-ken-johnny{
+
+    background-color:#be1818;
+
+}
+
+.miembro-dj-santa-monica{
+
+    background-color: #1a8b07;
+
+}
+
+.miembro-spear-rib{
+
+    background-color: #e569c9;
+
+}
+
+.miembro-kamikaze-boy{
+
+    background-color: #0f2fa0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
