@@ -1,90 +1,76 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
+body, h1, h2, p {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karantina', 'Mako', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h2 {
+    color:black;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 #miembros {
-    background-color:black;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: justify;
 }
 
-#miembros h2 {
-    color: white;
-    font-family: karantina;
-    font-size: 50px;
+.miembro-tokyo-tanaka,
+.miembro-jean-ken-johnny,
+.miembro-dj-santa-monica,
+.miembro-spear-rib,
+.miembro-kamikaze-boy {
     margin-bottom: 20px;
-    text-align: left;
 }
 
-.miembro-tokyo-tanaka{
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
-    background-color: #d75700;
-
-    
+.miembro-tokyo-tanaka img,
+.miembro-jean-ken-johnny img,
+.miembro-dj-santa-monica img,
+.miembro-spear-rib img,
+.miembro-kamikaze-boy img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.miembro-jean-ken-johnny{
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
+.miembro-tokyo-tanaka p,
+.miembro-jean-ken-johnny p,
+.miembro-dj-santa-monica p,
+.miembro-spear-rib p,
+.miembro-kamikaze-boy p {
+    margin-top: 10px;
+}
+
+.miembro-tokyo-tanaka {
+    background-color:#d75700;
+    padding: 15px;
+    border-radius: 8px;
+}
+.miembro-jean-ken-johnny {
     background-color:#be1818;
+    padding: 15px;
+    border-radius: 8px;
 }
-
-.miembro-dj-santa-monica{
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
-    background-color: #1a8b07;
+.miembro-dj-santa-monica {
+    background-color:#1a8b07;
+    padding: 15px;
+    border-radius: 8px;
 }
-
-.miembro-spear-rib{
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
-    background-color: #e569c9;
+.miembro-spear-rib {
+    background-color:#e659c9;
+    padding: 15px;
+    border-radius: 8px;
 }
-
-.miembro-kamikaze-boy{
-    border-top-width: 1px;
-    border-right-width: 2px;
-    border-bottom-width: 1px;
-    border-left-width: 2px;
-    background-color: #0f2fa0;
+.miembro-kamikaze-boy {
+    background-color:#0f2fa0;
+    padding: 15px;
+    border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
