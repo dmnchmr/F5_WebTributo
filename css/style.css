@@ -15,13 +15,24 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
-
+.perfiles{
+    isplay:flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
+}
 #miembros {
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
 }
-
+.tarjeta-miembros{
+    
+}
 .miembro-tokyo-tanaka,
 .miembro-jean-ken-johnny,
 .miembro-dj-santa-monica,
