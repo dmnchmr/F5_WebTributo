@@ -10,35 +10,36 @@ body {
 }
 
 h2 {
-    color:black;
+    color:white;
     text-align: left;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+    font-size: 83px;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: -16px 8px 5.9px #cebaba59;
+    padding: 50px;
 }
 .perfiles{
-    isplay:flex;
+    display:flex;
     flex-wrap: wrap;
-    gap: 20%;
+    gap: 15%;
     justify-content: center;
 }
 #miembros {
     width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    height: 100vh;
     display:flex;
     flex-wrap: wrap;
     gap: 20%;
+    background-color: black;
+
+}
+.tarjeta-miembro{
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-}
-.tarjeta-miembros{
+    align-items: center;
+    width: 20%;
     
-}
-.miembro-tokyo-tanaka,
-.miembro-jean-ken-johnny,
-.miembro-dj-santa-monica,
-.miembro-spear-rib,
-.miembro-kamikaze-boy {
-    margin-bottom: 20px;
 }
 
 .miembro-tokyo-tanaka img,
@@ -58,6 +59,7 @@ h2 {
 .miembro-spear-rib p,
 .miembro-kamikaze-boy p {
     margin-top: 10px;
+    text-align: center;
 }
 
 .miembro-tokyo-tanaka {
