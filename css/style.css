@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header {
+  background-color: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.logolobo img {
+  height: 90px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  font-size: 25px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
