@@ -74,7 +74,7 @@ header {
         width: 100%;
         object-fit: cover;
         scroll-snap-align: center;
-        animation: fotos 40s ease-in-out 2s infinite alternate;
+        animation: fotos 20s ease-in-out 3s infinite alternate;
     }
 
 h1 {
