@@ -1,3 +1,100 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Karantina', 'Mako', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.titulo-miembros {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    padding-top: 4em;
+}
+h2 {
+    color:white;
+    text-align: left;
+    font-size: 83px;
+    font-style: normal;
+    font-weight: 700;
+    text-shadow: -16px 8px 5.9px #cebaba59;
+    padding: 50px;
+    height: max-content;
+    padding-top: 1.5em;
+    margin-bottom: -20px;
+}
+.perfiles{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    margin-top: -20px;
+    height: 60%;
+}
+#miembros {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    background-color: black;
+}
+.tarjeta-miembro{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25%  
+}
+.miembro-tokyo-tanaka img,
+.miembro-jean-ken-johnny img,
+.miembro-dj-santa-monica img,
+.miembro-spear-rib img,
+.miembro-kamikaze-boy img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.miembro-tokyo-tanaka p,
+.miembro-jean-ken-johnny p,
+.miembro-dj-santa-monica p,
+.miembro-spear-rib p,
+.miembro-kamikaze-boy p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.miembro-tokyo-tanaka {
+    background-color:#d75700;
+    padding: 15px;
+    border-radius: 8px;
+}
+.miembro-jean-ken-johnny {
+    background-color:#be1818;
+    padding: 15px;
+    border-radius: 8px;
+}
+.miembro-dj-santa-monica {
+    background-color:#1a8b07;
+    padding: 15px;
+    border-radius: 8px;
+}
+.miembro-spear-rib {
+    background-color:#e659c9;
+    padding: 15px;
+    border-radius: 8px;
+}
+.miembro-kamikaze-boy {
+    background-color:#0f2fa0;
+    padding: 15px;
+    border-radius: 8px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -133,6 +230,7 @@ h1 {
         left: -300%;
     }
 }
+
 
 
 
