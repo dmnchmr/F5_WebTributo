@@ -6,7 +6,7 @@
 
 body {
   margin: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Karantina';
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
   list-style: none;
   display: flex;
   margin: 0;
-  font-size: 25px;
+  font-size: 55px;
   justify-content: center;
   padding-top: 20px;
 }
